@@ -1,0 +1,22 @@
+.nav-container{
+    background-color: var(--color-surface);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    cursor: pointer;
+}
+
+.nav-header{
+    cursor: pointer;
+    color: var(--color-accent);
+}
+

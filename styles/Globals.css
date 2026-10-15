@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import "../styles/Variables.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: var(--font-heading);
+  font-weight: 400;
+  line-height: 0.95;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 22px;
+}
+
+p {
+  font-size: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
