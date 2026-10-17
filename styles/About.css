@@ -1,0 +1,38 @@
+.about-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.intro{
+    padding: 40px 0;
+}
+
+.about-container h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.about-statement{
+    font-size: 55px;
+}
+
+.about-statement span{
+    color: var(--color-accent);
+}
+
+.about-content{
+    max-width: 600px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.about-btn{
+    margin-top: 60px;
+}

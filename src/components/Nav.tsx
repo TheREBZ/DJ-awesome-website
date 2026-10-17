@@ -4,18 +4,18 @@ import { faRecordVinyl } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
   return (
-    <nav className='nav-container'>
+    <nav className='nav-container' id="home">
         <div className='nav-header-container'>
-            <h1 className='nav-header'>DJ Awesome</h1>
+            <a className='nav-header' href="#home">DJ AWESOME</a>
             <FontAwesomeIcon icon={faRecordVinyl} className="nav-icon" />
         </div>
         <div className='nav-links'>
-            <h2 className="nav">About</h2>
-            <h2 className="nav">Services</h2>
-            <h2 className="nav">Events</h2>
-            <h2 className="nav">Song Mixes</h2>
-            <h2 className="nav">Gallery</h2>
-            <h2 className="nav">Bookings and Contact</h2>
+            <a className="nav" href="#about">ABOUT</a>
+            <a className="nav" href="#services">SERVICES</a>
+            <a className="nav" href="#Events">EVENTS</a>
+            <a className="nav" href="#song-mixes">SONG MIXES</a>
+            <a className="nav" href="#gallery">GALLERY</a>
+            <a className="nav" href="#book">BOOKINGS AND CONTACTS</a>
         </div>
     </nav>
   )

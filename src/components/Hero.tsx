@@ -2,8 +2,8 @@ import "../../styles/Hero.css"
 
 const Hero = () => {
   return (
-    <main className="hero-container">
-        <p className="hero-head">GOOD MUSIC • SUPERB ENTERTAINMENT • MEMORABLE EXPERIENCES</p>
+    <main>
+        <p className="hero-head">GOOD MUSIC • SUPERB ENTERTAINMENT • UNFORGETABLE VIBEZ</p>
         <div className="hero-text">
             <h1 className="hero-white">
             EVERY MOMENT 

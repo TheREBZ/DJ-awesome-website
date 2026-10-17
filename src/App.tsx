@@ -1,5 +1,6 @@
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
+import About from "./components/About"
 
 import "../styles/Globals.css"
 
@@ -7,8 +8,11 @@ import "../styles/Globals.css"
 const App = () => {
   return (
     <>
-    <Nav />  
-    <Hero />  
+    <main className="head-container">
+      <Nav />
+      <Hero />  
+      <About />
+    </main>
     </>
   )
 }
