@@ -2,7 +2,7 @@
     background-color: var(--color-surface);
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 15px 40px;
 }
 
 .nav-links{
@@ -15,8 +15,25 @@
     cursor: pointer;
 }
 
+.nav:hover{
+    color: var(--color-accent);
+}
+
+.nav-header-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+}
+
 .nav-header{
     cursor: pointer;
     color: var(--color-accent);
 }
 
+.nav-icon{
+    color: var(--color-accent);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}

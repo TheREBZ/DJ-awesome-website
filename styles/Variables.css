@@ -2,8 +2,8 @@
 
 :root {
 /* Backgrounds */
---color-bg: #717273;
---color-surface: #111214;
+--color-bg: #bec0c1;
+--color-surface: #1D1F22;
 --color-black: #080809;
 
 /* Text */
@@ -11,7 +11,7 @@
 --color-muted: #85878b;
 
 /* Accent */
---color-accent: #e63946;
+--color-accent: #f8192b;
 --color-border: #343434;
 
 /* Typography */
