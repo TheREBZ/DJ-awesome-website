@@ -1,7 +1,7 @@
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
 import About from "./components/About"
-
+import Services from "./components/Services"
 import "../styles/Globals.css"
 
 
@@ -13,6 +13,7 @@ const App = () => {
       <Hero />  
       <About />
     </main>
+    <Services />
     </>
   )
 }

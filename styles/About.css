@@ -1,5 +1,5 @@
 .about-container{
-    margin-top: 100px;
+    margin: 100px 0 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,8 +31,4 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-}
-
-.about-btn{
-    margin-top: 60px;
 }

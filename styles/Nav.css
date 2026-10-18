@@ -1,8 +1,16 @@
 .nav-container{
     display: flex;
-    /* justify-content: space-between; */
     gap: 180px;
-    padding-block: 15px;
+    padding-block: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.nav-container.scrolled{
+    background-color: var(--color-black);
 }
 
 .nav-links{
@@ -19,6 +27,7 @@
 
 .nav:hover{
     color: var(--color-accent);
+    font-weight: 600;
 }
 
 .nav-header-container{
@@ -33,6 +42,7 @@
 .nav-header{
     cursor: pointer;
     color: var(--color-accent);
+    font-weight: 800;
 }
 
 .nav-icon{
