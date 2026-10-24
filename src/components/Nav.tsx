@@ -26,9 +26,9 @@ function Nav() {
   }
 
   return (
-    <nav className={navClass} id="/">
+    <nav className={navClass} >
       <div className="nav-header-container">
-        <a className="nav-header" href="#/">
+        <a className="nav-header" href="#home">
           DJ AWESOME
         </a>
         <FontAwesomeIcon icon={faRecordVinyl} className="nav-icon" />

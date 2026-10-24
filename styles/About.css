@@ -32,3 +32,36 @@
     align-items: center;
     padding: 20px 30px;
 }
+
+@media (max-width: 768px) {
+    .about-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .about-content{
+        /* background-color: var(--color-surface); */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .about-content p, .about-content h3{
+        color: var(--color-surface);
+    }
+
+    .about-content .btn{
+        border: 2px solid var(--color-surface);
+        color: var(--color-surface);
+        font-weight: 600;
+    }
+
+    .about-container .btn:hover{
+        background-color: var(--color-accent);
+        font-weight: 600;
+        border: 1px solid var(--color-accent);
+    }
+}

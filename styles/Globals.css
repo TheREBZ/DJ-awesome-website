@@ -9,7 +9,6 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
 }
 
 body {
@@ -90,5 +89,28 @@ video {
   align-items: start;
   justify-content: center;
   gap: 50px;
-  padding: 0 70px 0;
+  padding: 100px 70px 0;
+}
+
+/* mobile layout */
+@media (max-width: 768px) {
+  .head-container {
+    padding: 140px 20px 0;
+    background-size: auto 40%;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+      font-size: 38px;
+  }
+
+  p {
+      font-size: 16px;
+  }
+
+  img,
+  video {
+      border-radius: 20px;
+  }
 }

@@ -1,53 +1,87 @@
-.nav-container{
-    display: flex;
-    gap: 180px;
-    padding-block: 15px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: transparent;
-    transition: background-color 0.3s ease;
+
+.nav-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
+padding: 15px 5%;
+background-color: transparent;
+transition: background-color 0.3s ease;
 }
 
-.nav-container.scrolled{
+.nav-container.scrolled {
+background-color: var(--color-black);
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+}
+
+.nav {
+cursor: pointer;
+white-space: nowrap;
+}
+
+.nav:hover {
+color: var(--color-accent);
+font-weight: 600;
+}
+
+.nav-header-container {
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 25px;
+font-weight: 400;
+}
+
+.nav-header {
+cursor: pointer;
+color: var(--color-accent);
+font-weight: 800;
+white-space: nowrap;
+}
+
+.nav-icon {
+color: var(--color-accent);
+height: 50px;
+width: 50px;
+cursor: pointer;
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+.nav-container {
+    flex-direction: column;
+    gap: 12px;
+    padding: 2px 15px;
     background-color: var(--color-black);
 }
 
-.nav-links{
-    display: flex;
-    gap: 40px;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 20px;
+.nav-header-container {
+    font-size: 22px;
 }
 
-.nav{
-    cursor: pointer;
+.nav-icon {
+    height: 35px;
+    width: 35px;
 }
 
-.nav:hover{
-    color: var(--color-accent);
+.nav-links {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    font-size: 16px;
     font-weight: 600;
+    /* justify-content: space-evenly; */
 }
-
-.nav-header-container{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    align-items: center;
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.nav-header{
-    cursor: pointer;
-    color: var(--color-accent);
-    font-weight: 800;
-}
-
-.nav-icon{
-    color: var(--color-accent);
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
 }

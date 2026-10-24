@@ -1,0 +1,8 @@
+.events-section{
+    background-color: linear-gradient(
+        to bottom,
+        #111214,
+        #0e0e0f
+    );
+    padding: 90px 6%;
+}

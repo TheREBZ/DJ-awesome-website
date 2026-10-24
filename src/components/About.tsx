@@ -10,7 +10,7 @@ const About = () => {
       <div className="about-content">
         <h2 className="about-statement">
           MORE THAN MUSIC <br/>
-          <span>ITS AN EXPERIENCE</span>
+          <span>IT'S AN EXPERIENCE</span>
           </h2>
           <p>
             DJ Awesome brings music, energy and atmosphere together to make every occasion special. From weddings and birthdays to social gatherings, lounges, clubs and other events, the goal is simple, deliver the right sound for the right moment.
