@@ -1,0 +1,75 @@
+.song-mixes-section{
+    background-color: var(--color-accent);
+    padding: 40px 6%;
+    
+}
+
+.song-mixes-container{
+    color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.song-mixes-container span{
+    color: var(--color-text);
+}
+
+.song-mixes-container h1{
+    font-size: 25px;
+}
+
+.song-mixes-container p{
+    align-self: center;
+    font-size: 22px;
+}
+
+.song-mixes-container h3{
+    font-size: 40px;
+}
+
+.audio-container{
+    display: flex;
+    align-self: center;
+    gap: 40px;
+}
+
+.audio-icon{
+    color: var(--color-black);
+    height: 60px;
+    width: 60px;
+}
+
+.mix-links{
+    font-size: 22px;
+    margin: 40px 0;
+    border: 2px solid var(--color-black);
+    padding: 24px 48px;
+    align-self: center;
+}
+
+.mix-links:hover{
+    background-color: var(--color-black);
+    border: 2px solid var(--color-black);
+    color: var(--color-bg);
+    cursor: pointer;
+}
+
+@media(max-width: 768px){
+    .audio-container{
+        gap: 8px;
+    }
+
+    .mix-links{
+        font-size: 14px;
+        padding: 15px 30px;
+        }
+    
+    .song-mixes-container p{
+        display: flex;
+        align-self: center;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+}

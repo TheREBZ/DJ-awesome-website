@@ -15,8 +15,11 @@ const Hero = () => {
             <p>Whatever the occasion, DJ Awesome brings the music, energy and atmosphere to make it special.</p>
         </div>
         <div className="hero-btns">
-            <button className="btn">LISTEN TO MIXES</button>
-            <button className="btn">BOOK AN EVENT</button>
+          <a href="#song-mixes" >
+            <button className="btn" >LISTEN TO MIXES</button>
+          </a>
+          <a href="#song-mixes" >
+          <button className="btn">BOOK AN EVENT</button></a>
         </div>
     </main>
   )

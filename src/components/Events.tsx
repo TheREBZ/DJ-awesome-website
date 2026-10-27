@@ -24,7 +24,7 @@ const Events = () => {
         </div>
             <div className="events-gallery-link">
                 <h3>Want to see more highlights?</h3>
-                <a href="https://example.com" target="_blank" rel="noreferrer" >
+                <a href="https://www.tiktok.com/@awesomedj_?_r=1&_t=ZS-9Ah6NVH4tlc" target="_blank" rel="noreferrer" >
                     CHECK OUT MY TIKTOK
                 </a>
             </div>

@@ -3,6 +3,8 @@ import Hero from "./components/Hero"
 import About from "./components/About"
 import Services from "./components/Services"
 import Events from "./components/Events"
+import SongMixes from "./components/SongMixes"
+import Gallery from "./components/Gallery"
 import "../styles/Globals.css"
 
 
@@ -16,6 +18,8 @@ const App = () => {
     </main>
     <Services />
     <Events />
+    <SongMixes />
+    <Gallery />
     </>
   )
 }
