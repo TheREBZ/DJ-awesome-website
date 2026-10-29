@@ -1,0 +1,46 @@
+.book-container{
+    background-color: var(--color-charcaol);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 70px 0;
+}
+
+.book-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.book-content span{
+    color: var(--color-accent);
+}
+
+.whatsapp{
+    display: flex;
+    border: 1px solid var(--whatsapp);
+    justify-content: center;
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--whatsapp);
+    font-weight: 600;
+}
+
+.whatsapp-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.book-links{
+    border: 1px solid var(--color-bg);
+    height: 170px;
+    margin-block: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

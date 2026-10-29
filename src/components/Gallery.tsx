@@ -15,16 +15,16 @@ const Gallery = () => {
                 <p>Wedding Reception</p>
             </div>
             <div className="gallery-image-card">
-                <img src="Gallery/gallery-sample2.jpg" alt="Gallery Image 2" className="gallery-image"/>
-                <p>Wedding Reception</p>
+                <img src="/Gallery/gallery-sample2.jpeg" alt="Gallery Image 2" className="gallery-image"/>
+                <p>Main Wedding Ceremony</p>
             </div>
             <div className="gallery-image-card">
-                <img src="Gallery/gallery-sample3.jpg" alt="Gallery Image 3" className="gallery-image"/>
-                <p>Wedding Reception</p>
+                <img src="/Gallery/gallery-sample3.jpeg" alt="Gallery Image 3" className="gallery-image"/>
+                <p>Birthday Event</p>
             </div>
             <div className="gallery-image-card">
-                <img src="Gallery/gallery-sample4.jpg" alt="Gallery Image 4" className="gallery-image"/>
-                <p>Wedding Reception</p>
+                <img src="/Gallery/gallery-sample4.jpeg" alt="Gallery Image 4" className="gallery-image"/>
+                <p>Awesome Delivery</p>
             </div>
         </div>
         <div className="gallery-link">

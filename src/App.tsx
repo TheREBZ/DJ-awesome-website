@@ -5,6 +5,7 @@ import Services from "./components/Services"
 import Events from "./components/Events"
 import SongMixes from "./components/SongMixes"
 import Gallery from "./components/Gallery"
+import Book from "./components/Book"
 import "../styles/Globals.css"
 
 
@@ -20,6 +21,7 @@ const App = () => {
     <Events />
     <SongMixes />
     <Gallery />
+    <Book />
     </>
   )
 }

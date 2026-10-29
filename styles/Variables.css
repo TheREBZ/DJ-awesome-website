@@ -5,6 +5,7 @@
 --color-bg: #bec0c1;
 --color-surface: #1D1F22;
 --color-black: #080809;
+--color-charcaol: #2a2a2c;
 
 /* Text */
 --color-text: #ffffff;
@@ -13,6 +14,7 @@
 /* Accent */
 --color-accent: #f8192b;
 --color-border: #343434;
+--whatsapp: #25D366;
 
 /* Typography */
 --font-heading: "Bebas Neue", sans-serif;
