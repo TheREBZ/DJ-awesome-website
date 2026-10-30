@@ -16,7 +16,7 @@ const Gallery = () => {
             </div>
             <div className="gallery-image-card">
                 <img src="/Gallery/gallery-sample2.jpeg" alt="Gallery Image 2" className="gallery-image"/>
-                <p>Main Wedding Ceremony</p>
+                <p>White Wedding Ceremony</p>
             </div>
             <div className="gallery-image-card">
                 <img src="/Gallery/gallery-sample3.jpeg" alt="Gallery Image 3" className="gallery-image"/>

@@ -6,6 +6,7 @@ import Events from "./components/Events"
 import SongMixes from "./components/SongMixes"
 import Gallery from "./components/Gallery"
 import Book from "./components/Book"
+import Footer from "./components/Footer"
 import "../styles/Globals.css"
 
 
@@ -22,6 +23,7 @@ const App = () => {
     <SongMixes />
     <Gallery />
     <Book />
+    <Footer />
     </>
   )
 }

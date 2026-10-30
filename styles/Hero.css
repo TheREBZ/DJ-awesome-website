@@ -22,7 +22,7 @@
 }
 
 .hero-text p{
-    max-width: 550px;
+    max-width: 450px;
     font-size: 18px;
     line-height: 1.7;
     margin-bottom: 30px;
@@ -41,5 +41,9 @@
 
     .hero-btns{
         justify-content: center;
+    }
+
+    .hero-white{
+        padding-top: 60px;
     }
 }

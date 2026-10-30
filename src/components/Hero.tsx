@@ -18,7 +18,7 @@ const Hero = () => {
           <a href="#song-mixes" >
             <button className="btn" >LISTEN TO MIXES</button>
           </a>
-          <a href="#song-mixes" >
+          <a href="#book" >
           <button className="btn">BOOK AN EVENT</button></a>
         </div>
     </main>

@@ -21,8 +21,8 @@
 }
 
 .gallery-image{
-    width: 300px;
-    height: 380px;
+    width: 340px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -57,4 +57,6 @@
     border: 2px solid var(--color-accent);
     color: var(--color-black);
     font-weight: 600;
+    transform: scale(1.04);
+    transition: ease 0.3s;
 }

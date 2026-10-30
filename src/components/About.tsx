@@ -19,9 +19,11 @@ const About = () => {
             With a versatile approach to music and an eye for the crowd, DJ Awesome helps create an atmosphere where people can connect, celebrate and enjoy the moment.
           </p>
           <h3>MUSIC FOR EVERY OCCASION. <br/> THE RIGHT VIBE, EVERY TIME.</h3>
-          <button className="btn">
-            LET'S MAKE YOUR EVENT AWESOME
-          </button>
+          <a href="#book">
+            <button className="btn">
+              LET'S MAKE YOUR EVENT AWESOME
+            </button>
+          </a>
       </div>
     </section>
   )

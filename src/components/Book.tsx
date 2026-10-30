@@ -6,7 +6,6 @@ import {
   faWhatsapp
 } from "@fortawesome/free-brands-svg-icons";
 
-
 const Book = () => {
   return (
     <section className="book-container" id="book">
@@ -27,11 +26,11 @@ const Book = () => {
             <div className='book-links'>
               <p>OR FIND ME ON</p>
               <div className="book-icons">
-                <a href='https://example.com ' target='_blank' rel='noopener noreferrer' className="tiktok">
-                  <FontAwesomeIcon icon={faTiktok} />
+                <a href='https://www.tiktok.com/@awesomedj_?_r=1&_t=ZS-9Ah6NVH4tlc' target='_blank' rel='noopener noreferrer' title="Tiktok" className="tiktok">
+                  <FontAwesomeIcon icon={faTiktok} style={{width: "40px", height: "40px"}} />
                 </a>
-                <a href='https://example.com ' target='_blank' rel='noopener noreferrer' className="twitter">
-                  <FontAwesomeIcon icon={faXTwitter} />
+                <a href='http://x.com/AwesomeDj11' target='_blank' rel='noopener noreferrer' title="X (a.k.a Twitter)" className="twitter">
+                  <FontAwesomeIcon icon={faXTwitter} style={{width: "40px", height: "40px"}} />
                 </a>
               </div>
             </div>

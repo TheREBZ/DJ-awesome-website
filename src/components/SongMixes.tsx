@@ -18,7 +18,7 @@ const SongMixes = () => {
             </div>
             <div className='mix-links'>
                 <a href='https://example.com' target='_blank' rel='nonreferrer'>
-                    LISTEN TO MORE MIXES ON AUDIO MACK
+                    LISTEN TO MORE MIXES ON AUDIOMACK
                 </a>
             </div>
         </div>

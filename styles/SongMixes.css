@@ -53,6 +53,8 @@
     border: 2px solid var(--color-black);
     color: var(--color-bg);
     cursor: pointer;
+    transform: scale(1.04);
+    transition: ease 0.3s;
 }
 
 @media(max-width: 768px){
